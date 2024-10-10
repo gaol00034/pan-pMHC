@@ -72,7 +72,7 @@ def main():
             val_auc = roc_auc_score(torch.tensor(val_targets), torch.tensor(val_preds))
             precision, recall, _ = precision_recall_curve(torch.tensor(val_targets), torch.tensor(val_preds))
             val_aupr = auc(recall, precision)
-            recall = recall_score(torch.tensor(val_targets), torch.tensor(val_preds)>0.1)
+            recall = recall_score(torch.tensor(val_targets), torch.tensor(val_preds)>threshold)
             logging.info(
                 "test_auc: {:.6f}, test_recall:{:.6f}, test_aupr : {:.6f}".format(
                     val_auc, recall, val_aupr
