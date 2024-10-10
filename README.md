@@ -1,5 +1,5 @@
 # Structure directed pan-pMHC TCR-pMHC interaction prediction
-![workflow](https://github.com/gaol00034/pan-pMHC/blob/main/Figures/workflow.png)
+![workflow](https://github.com/gaol00034/pan-pMHC/blob/main/Figures/Workflow.png)
 ## Models
 ## Data description
 ### SEQ-BD
