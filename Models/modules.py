@@ -18,7 +18,7 @@ class pepSeq(nn.Module):
         outfeat = self.norm2(self.FF(out)+out)
         return outfeat
 
-from newGATs import *
+from GATs import *
 class GATEncoder(nn.Module):
     def __init__(self, n_heads, m, input_dim, hidden_size, device):
         super().__init__()
