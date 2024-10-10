@@ -6,12 +6,12 @@
 ## Data description
 Except the SEQ-BD and the STRUCT-CS datasets, the other datasets used in our paper could be downloaded from [NetTCR2.2_full_dataset](https://github.com/mnielLab/NetTCR-2.2/blob/main/data/nettcr_2_2_full_dataset.csv) and [IMMREP22*](https://github.com/mnielLab/NetTCR-2.2/blob/main/data/IMMREP/train/all_peptides_redundancy_reduced.csv)
 ### SEQ-BD
-All the positive data are picked from [VDJdb]() and ITRAP denoised [TIRAP_10xGenomics](https://github.com/mnielLab/ITRAP_benchmark);  
+All the positive data are picked from [VDJdb](https://vdjdb.cdr3.net/overview) and ITRAP denoised [TIRAP_10xGenomics](https://github.com/mnielLab/ITRAP_benchmark);  
 And the negative data are sampled from [10xGenomics](https://www.10xgenomics.com/datasets);  
-The ./data/SEQ-BD/sample.csv give the data format of SEQ-BS.
+The [./data/SEQ-BD/sample.csv](https://github.com/gaol00034/pan-pMHC/data/SEQ-BD/sample.csv) give the data format of SEQ-BS.
 ### STRUCT-CS
 The structure data are derived from [IMGT-3DstructDB](https://www.imgt.org/3Dstructure-DB/);  
-The ./data/STRUCT-CS/PDBids.txt shows all the pdb files used in our work.
+The [./data/STRUCT-CS/PDBids.txt](https://github.com/gaol00034/pan-pMHC/data/STRUCT-CS/PDBids.txt) shows all the pdb files used in our work.
 ***
 ## Run
 
