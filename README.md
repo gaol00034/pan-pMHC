@@ -8,13 +8,13 @@ Except the SEQ-BD and the STRUCT-CS datasets, the other datasets used in our pap
 ### SEQ-BD
 All the positive data are picked from VDJdb[VDJ]() and ITRAP denoised 10x Genomics[TIRAP_10xGenomics](https://github.com/mnielLab/ITRAP_benchmark);  
 And the negative data are sampled from 10x Genomics[10xGenomics](https://www.10xgenomics.com/datasets);  
-The ./data/SEQ-BD/sample.csv give the data format of SEQ-BS;
+The ./data/SEQ-BD/sample.csv give the data format of SEQ-BS.
 ***
 ### STRUCT-CS
-The structure data are derived from IMGT[IMGT-3DstructDB](https://www.imgt.org/3Dstructure-DB/)  
+The structure data are derived from IMGT[IMGT-3DstructDB](https://www.imgt.org/3Dstructure-DB/);  
 The ./data/STRUCT-CS/PDBids.txt shows all the pdb files used in our work.
 ***
 ## Run
 
 ## Contact
-If you have any questions, please contact us at [](ltgao34@njust.edu.cn) or [](njyudj@njust.edu.cn)
+If you have any questions, please contact us at [ltgao34@njust.edu.cn](ltgao34@njust.edu.cn) or [njyudj@njust.edu.cn](njyudj@njust.edu.cn)
