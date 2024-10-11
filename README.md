@@ -14,8 +14,8 @@ The structure data are derived from [IMGT-3DstructDB](https://www.imgt.org/3Dstr
 The [./data/STRUCT-CS/PDBids.txt](https://github.com/gaol00034/pan-pMHC/data/STRUCT-CS/PDBids.txt) shows all the pdb files used in our work.
 ***
 ## Run
-'''
+```
 python ./Scripts/train.py
-'''
+```
 ## Contact
 If you have any questions, please contact us at [ltgao34@njust.edu.cn](ltgao34@njust.edu.cn) or [njyudj@njust.edu.cn](njyudj@njust.edu.cn)
